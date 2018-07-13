@@ -21,6 +21,6 @@ s.vendored_frameworks = 'Chartboost/Chartboost.framework'
 
 s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 
-s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation', 'StoreKit'
+s.frameworks = 'UIKit', 'AVFoundation', 'Foundation', 'CoreMedia', 'CoreLocation', 'CoreTelephony', 'SystemConfiguration', 'StoreKit', 'MediaPlayer', 'CFNetwork', 'AdSupport', 'ImageIO', 'WebKit', 'AdSupport', 'MobileCoreServices'
 s.libraries = 'z', 'stdc++', 'sqlite3'
 end
