@@ -17,7 +17,7 @@ s.author       = { "liuyaqiang" => "344257448@qq.com" }
 s.platform     = :ios, '8.0'
 
 s.source           = { :git => "https://github.com/liuyaqiang/yf_ChartboostSDK.git", :tag => "#{s.version}" }
-s.vendored_frameworks = 'Chartboost/Chartboost.framework','CHAMoatMobileAppKit.framework'
+s.vendored_frameworks = 'Chartboost/Chartboost.framework','Chartboost/CHAMoatMobileAppKit.framework'
 
 s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 
